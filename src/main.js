@@ -7,7 +7,7 @@ import User from './Users.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/users', component: User },
+  { path: '/users/:teamId', component: User },
   { path: '/', component: Home }
 ];
 
